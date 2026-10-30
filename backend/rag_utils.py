@@ -16,7 +16,7 @@ def retrieve(query: str, k: int = 2,vectorstore=None) -> list[str]:
 def generate(query, retrieved_chunks,model) -> str:
 
     prompt = f"""
-    You are an AI assistant answering questions about medical insurance policies.
+    You are an AI assistant answering questions about AuroraStay hotel policies and guest service rules.
 
     User Query:
     {query}
